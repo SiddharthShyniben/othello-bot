@@ -1,8 +1,3 @@
-<!--
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** repo_name, project_title, project_description
--->
-
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -19,23 +14,22 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/SiddharthShyniben/repo_name">
-    <!-- TODO Insert logo if applicable -->
-    <!-- <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
+  <a href="https://github.com/SiddharthShyniben/othello-bot">
+    <img src="src/assets/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">Othello bot</h3>
 
   <p align="center">
-    project_description
+    A simple othello playing bot
     <br />
     <!-- Directly link to the docs here if it's not in the README -->
     <a href="#documentation"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <!-- Add demo if available -->
-    <!-- <a href="https://github.com/SiddharthShyniben/repo_name">View Demo</a> -->
-    <!-- · -->
+    <a href="https://siddharthshyniben.github.io/othello-bot">View Demo</a>
+    ·
     <a href="https://github.com/SiddharthShyniben/template/issues/new?assignees=SiddharthShyniben&labels=bug&template=bug_report.md&title=%5BBug%5D%3A+Describe+your+bug">Report Bug</a>
     ·
     <a href="https://github.com/SiddharthShyniben/template/issues/new?assignees=SiddharthShyniben&labels=enhancement&template=feature_request.md&title=%5BFeature%5D%3A+Describe+your+feature">Request Feature</a>
@@ -62,8 +56,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#documentation">Documentation</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -77,37 +69,13 @@
 ## About The Project
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
-sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
-recusandae alias error harum maxime adipisci amet laborum. Perspiciatis 
-minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit 
-quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur 
-fugiat, temporibus enim commodi iusto libero magni deleniti quod quam 
-consequuntur! Commodi minima excepturi repudiandae velit hic maxime
-doloremque. Quaerat provident commodi consectetur veniam similique ad 
-earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo 
-fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore 
-suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium
-modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam 
-totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam 
-quasi aliquam eligendi, placeat qui corporis!
-
-**Ok, don't do this. Keep your about as simple as possible**
-<!-- TODO fill this -->
+This is just my simple attempt at making an othello playing bot. This was originally a challenge from my friends. It is hosted on Github pages [here](https://siddharthshyniben.github.io/othello-bot). You can also clone this repo and host it locally using the angular CLI. See the [CONTRIBUTING](./CONTRIBUTING.md#local-development) for more info
 
 
 
 ### Built With
 
-* [Fingers]()
-<!-- TODO fill this -->
+* [Angular](https://angular.io)
 
 
 
@@ -115,48 +83,32 @@ quasi aliquam eligendi, placeat qui corporis!
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
-<!-- TODO fill this -->
 
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* `npm`
-  ```sh
-  npm install npm@latest -g
+You need to install node and the Angular CLI.
+
+* node
+
+  Go to <https://nodejs.org> To download the latest version.
+* Angular CLI
+  ```console
+  $ npm i -g @angular/cli
   ```
 
 ### Installation
 
-1. Install via `npm`
-  ```sh
-    npm i repo_name
-  ```
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](#documentation)_
-<!-- TODO fill this -->
-
-
-
-<!-- DOCUMENTATION -->
-## Documentation
-
-Use this space to describe the project, linking to the [installation](#installation), the [usage](#usage), and the documentation if it's on another page (wiki and stuff)
-<!-- TODO fill this -->
+1. Fork and clone this repo
+2. `cd` (or [`fcd`](https://github.com/SiddharthShyniben/fcd)) into the project
+3. Run ng serve to start the development server.
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/SiddharthShyniben/repo_name/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/SiddharthShyniben/othello-bot/issues) for a list of proposed features (and known issues).
 
 
 
@@ -167,18 +119,18 @@ Contributions are what make the open source community such an amazing place to b
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+3. Commit your Changes (`git commit -m 'added some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-For more info, see [`CONTRIBUTING.md`](./CONTRIBUTING.md)
+For more info, see [CONTRIBUTING.md](./CONTRIBUTING.md)
 
-[![Stargazers repo roster for @SiddharthShyniben/repo_name; Thank you!!](https://reporoster.com/stars/SiddharthShyniben/repo_name)](https://github.com/SiddharthShyniben/repo_name/stargazers)
+[![Stargazers repo roster for @SiddharthShyniben/othello-bot](https://reporoster.com/stars/SiddharthShyniben/othello-bot)](https://github.com/SiddharthShyniben/othello-bot/stargazers)
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the GNU General Public License v3.0. See [`LICENSE`](./LICENSE) for more information.
+Distributed under the GNU General Public License v3.0. See [LICENSE](./LICENSE) for more information.
 
 
 
@@ -187,34 +139,32 @@ Distributed under the GNU General Public License v3.0. See [`LICENSE`](./LICENSE
 
 Siddharth Shyniben - siddharth.muscat@gmail.com
 
-Project Link: [https://github.com/SiddharthShyniben/repo_name](https://github.com/SiddharthShyniben/repo_name)
+Project Link: [https://github.com/SiddharthShyniben/othello-bot](https://github.com/SiddharthShyniben/othello-bot)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* [Me for the idea]()
-* [My laptop for letting me code]()
-* [Tim Berners-Lee for creating the internet]()
-<!-- TODO fill this -->
+N/A
+
 
 
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/SiddharthShyniben/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/SiddharthShyniben/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/SiddharthShyniben/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/SiddharthShyniben/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/SiddharthShyniben/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/SiddharthShyniben/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/SiddharthShyniben/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/SiddharthShyniben/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/SiddharthShyniben/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/SiddharthShyniben/repo_name/blob/main/LICENSE
-[tag-shield]: https://img.shields.io/github/v/tag/SiddharthShyniben/repo_name?sort=semver&style=for-the-badge
-[tag-url]: https://github.com/SiddharthShyniben/repo_name/
+[contributors-shield]: https://img.shields.io/github/contributors/SiddharthShyniben/othello-bot.svg?style=for-the-badge
+[contributors-url]: https://github.com/SiddharthShyniben/othello-bot/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/SiddharthShyniben/othello-bot.svg?style=for-the-badge
+[forks-url]: https://github.com/SiddharthShyniben/othello-bot/network/members
+[stars-shield]: https://img.shields.io/github/stars/SiddharthShyniben/othello-bot.svg?style=for-the-badge
+[stars-url]: https://github.com/SiddharthShyniben/othello-bot/stargazers
+[issues-shield]: https://img.shields.io/github/issues/SiddharthShyniben/othello-bot.svg?style=for-the-badge
+[issues-url]: https://github.com/SiddharthShyniben/othello-bot/issues
+[license-shield]: https://img.shields.io/github/license/SiddharthShyniben/othello-bot.svg?style=for-the-badge
+[license-url]: https://github.com/SiddharthShyniben/othello-bot/blob/main/LICENSE
+[tag-shield]: https://img.shields.io/github/v/tag/SiddharthShyniben/othello-bot?sort=semver&style=for-the-badge
+[tag-url]: https://github.com/SiddharthShyniben/othello-bot/
 [thanks-shield]: https://img.shields.io/badge/say-thanks-ff69b4.svg?style=for-the-badge
 [thanks-url]: https://saythanks.io/to/siddharth.muscat%40gmail.com
