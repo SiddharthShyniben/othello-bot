@@ -1,5 +1,15 @@
 <mat-toolbar color="primary">
-  <span>Othello Bot</span>
+  <mat-toolbar-row>
+    <span>Othello Bot</span>
+    &nbsp;&nbsp;
+    <div>
+      <a mat-button routerLink="/" routerLinkActive="hidden" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+      <!-- TODO -->
+      <!-- <a mat-button>Leaderboard</a> -->
+    </div>
+    <div class="flex-spacer"></div>
+    <a mat-raised-button color="accent" routerLink="/play" routerLinkActive="hidden">Play!</a>
+  </mat-toolbar-row>
 </mat-toolbar>
 
 <!-- Usually I would add spacing, but no, let components have control -->
