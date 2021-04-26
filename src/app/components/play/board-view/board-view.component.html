@@ -1,1 +1,9 @@
-<p>board-view works!</p>
+<mat-grid-list cols="8" rowHeight="5vw" gutterSize="5px">
+  <!-- arbitrary div to help loop through the board-->
+  <div *ngFor="let row of board; let y = index">
+    <mat-grid-tile *ngFor="let col of row; let x = index" (click)="makeHumanMove(y, x)">
+      <span class="disc white" *ngIf="col == -1"></span>
+      <span class="disc black" *ngIf="col == 1"></span>
+    </mat-grid-tile>
+  </div>
+</mat-grid-list>
